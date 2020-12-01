@@ -1,0 +1,344 @@
+/*universel*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.title{
+    color: #4c9DED;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 3rem;
+    font-size: 2rem;
+}
+/*Header*/
+.NavBrand{
+    color: #fff !important;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none !important;
+}
+.NavBrandScroll{
+    color:#4c9DED !important;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none !important;
+}
+.NavBackground{
+    background: rgba(0,0,0,0) !important;
+    transition:  .4s linear;
+    -webkit-transition:  .4s linear;
+    -moz-transition:  .4s linear;
+    -ms-transition:  .4s linear;
+    -o-transition:  .4s linear;
+}
+.NavBackgroundScroll{
+    background: #fff !important;
+    transition:  .4s linear;
+    -webkit-transition:  .4s linear;
+    -moz-transition:  .4s linear;
+    -ms-transition:  .4s linear;
+    -o-transition:  .4s linear;
+}
+
+.NavItem{
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    color: #fff ;
+    padding:0 10px;
+    font-size:1rem;
+    font-weight: 500;
+}
+.NavItemScroll{
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    color: #4c9DED !important;
+    font-size:1rem;
+    padding:0 10px;
+    font-weight: 500;
+}
+/*End Header*/
+/*TopBanner*/
+.topFixedBanner{
+    background-image: url(../images/topFixedBanner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center; 
+    min-height: 35rem;
+    width:100%;
+}
+.topOverlay{
+    background: rgba(0,0,0,.8);
+    height: 35rem;
+    width: 100%;
+    left: 0;
+    top:0;
+
+}
+.topContent{
+    text-align: center; 
+}
+
+.topH{
+    margin-top:12rem; 
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.topSub{
+    font-size: 27px;
+}
+/*Start Services*/
+.services{
+    text-align: center;
+}
+
+.serviceCard{
+    padding: 3rem 2rem;
+    height: 22rem;
+    box-shadow: 0 0 8px 0 rgba(0,115,230,0.4);
+    margin: 5px;
+}
+.serviceCard:hover{
+    box-shadow: 0 0 16px 0 rgba(0,115,230,0.4);
+   
+}
+.serviceCard h1{
+    font-size:1.7rem; 
+}
+.serviceCard p{
+    text-align: justify;
+    font-size: 1.1rem;
+}
+/*End services*/
+/*Start Technologu section*/
+
+.Technoly-sec-2{
+    font-size: 17px;
+    line-height: 30px;
+}
+/*End technology section*/
+
+/*Summary section*/
+.SumBanner{
+    background-image: url(../images/topFixedBanner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center; 
+    min-height: 22rem;
+    width:100%;
+    margin-top:4rem;
+}
+.SumOverlay{
+    background: rgba(0,0,0,.8);
+    height: 22rem;
+    width: 100%;
+    left: 0;
+    top:0;
+}
+.SumRow{
+    margin-top: 6rem;
+}
+.SumCard{
+    background: #fff;
+    height: 200px;
+    width: 100%;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.4);
+}
+.SumCard>h2{
+    font-weight: bold;
+}
+.Count-sec{
+   margin-top:15%; 
+}
+.CountNumber{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.CardTop{
+    margin-top: 18%;
+    padding: 10px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.CountTitle,.CountTitl{
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 1px;
+    position: relative;
+}
+.CountTitle::after{
+    content: "";
+    width: 7rem;
+    background: #fff;
+    position: absolute;
+    height: .1rem;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.CountTitl::after{
+    content: "";
+    width: 6rem;
+    background: #fff;
+    position: absolute;
+    height: .1rem;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.icon{
+    color: #4c9DED;
+}
+/*Summary section*/
+
+/*Project section*/
+.pro-button{
+    color: #fff !important;
+    text-decoration: none !important;
+}
+/*Course section*/
+.CourseTitle{
+    font-size: 22px;
+}
+.CourseBody{
+    text-align: justify;
+}
+.Course-img{
+    width: 100%;
+    height: 100%;
+}
+/*Video Section*/
+
+.VideoCard{
+    padding:4rem 3rem;
+    box-shadow: 0 0 8px 0 rgba(0,115,230,0.4);
+    margin: 2rem auto;
+    text-align: center;
+}
+.VideoHead{
+    font-size: 2.5rem;
+     color: #4c9DED;
+}
+.Cardp{
+    padding: 0 4rem;
+}
+.PlayIcon{
+    font-size: 2.5rem;
+    color: #4c9DED;
+    cursor: pointer;
+}
+/*Circle img*/
+
+.CircleImg{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0 auto;
+}
+.reviewP{
+    width: 70%;
+    margin: auto;
+}
+.rv{
+    margin-bottom:5px;
+}
+/*Footer*/
+.FootHeader{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.Footlink{
+    text-decoration: none !important;
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin-left: 4px;
+    color: #444 !important;
+}
+.Footlink:hover{
+   color: #4c9DED  !important;
+}
+.MainFooter{
+    padding: 10px;
+    background: #4c9DED;
+    text-align: center;
+    color: #fff;
+}
+.Footer{
+    padding: 10px;
+}
+/*page top*/
+.PageToph{
+    margin-top:9rem; 
+    font-weight: 700;
+}
+.topFixedBannerPage{
+    background-image: url(../images/topFixedBanner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center; 
+    min-height: 20rem;
+    width:100%;
+}
+.topOverlayPage{
+    background: rgba(0,0,0,.8);
+    height: 20rem;
+    width: 100%;
+    left: 0;
+    top:0;
+
+}
+
+/*Project details*/
+.project-img{
+    padding: 10px;
+    height:100%;
+    width: 100%;
+}
+.project-detail{
+    margin-left: 20px;
+}
+
+/*Coursepage*/
+.courseDetails{
+   margin-top:6rem; 
+}
+.courseDetail{
+    margin-top:6rem; 
+ }
+/*Media Quary*/
+
+@media screen and (max-width:767px ) {
+    .SumBanner{
+        min-height: 27rem;
+    }
+    .SumOverlay{
+        height: 27rem;
+    }
+    .Count-sec{
+        margin-top: 5%;
+    }
+    .CardTop{
+        margin-top: 3%;
+    }
+    .courseDetails{
+        margin-top:4rem; 
+     }
+    .courseDetail{
+        margin-top: 0rem;
+    }
+}
